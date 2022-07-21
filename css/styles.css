@@ -44,7 +44,11 @@ font-family: 'Roboto', sans-serif;
 
 /* ======HEADER====== */
 
-
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid #ECECEC;
+}
 .page-header-container {
     display: flex;
     align-items: center;
@@ -58,8 +62,6 @@ font-family: 'Roboto', sans-serif;
 .menu {
     display: flex;
     align-items: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
 }
 
 
@@ -69,15 +71,12 @@ font-family: 'Roboto', sans-serif;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
+        margin-right: 93px;
     
         color: #2196F3;
 }
 
-.logo{
-    margin-right: 93px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
+
 
 .contact-page{
 display: flex;
@@ -219,19 +218,27 @@ color: #2196F3;
  /* ======BUTTON PORTFOLIO===== */
 
  .button-portfolio{
+    font-family: inherit;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
         letter-spacing: 0.03em;
-    
+        border: none;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
+        
+        background: #F5F4FA;
         color: #212121;
     
  }
 
  .button-portfolio:hover,
  .button-portfolio:focus{
-background: #2196F3;
-color: #FFFFFF;
+   color: #FFFFFF;
+   background: #2196F3;
+
 
  }
  /* ======Наши работы Портфолио===== */
@@ -240,6 +247,8 @@ color: #FFFFFF;
         font-size: 18px;
         line-height: 2.0;
         letter-spacing: 0.06em;
+        margin-top: 20px;
+        margin-bottom: 4px;
     
         color: #212121;
  }
@@ -289,6 +298,7 @@ color: #FFFFFF;
  }
  .our-team-titles{
     background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    
  }
  
@@ -308,7 +318,9 @@ color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+
     /* justify-content: space-between; */
+    
 }
 
 /* =====спосіб №2====== */
@@ -387,6 +399,25 @@ color: #FFFFFF;
 
 /* ======PORTFOLIO PAGE====== */
 
+.main-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.our-work-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.btn-portfolio:not(:last-child){
+    margin-right: 8px;
+}
+.portfolio-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
 
 
